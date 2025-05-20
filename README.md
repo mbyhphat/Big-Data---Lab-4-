@@ -6,5 +6,5 @@
 Dự đoán khối u ác tính hay lành tính sử dụng data streaming với Apache Spark và học máy (Logistic Regression).
 
 ## Cách chạy
-* **stream data**: ```python stream_breast_cancer.py --file-path datasets/breast-cancer.csv --batch-size 50```
-* **train, predict and evalute model after recieving data**: ```python main.py ```
+* **stream data**: ```python src/stream.py --file-path datasets/breast-cancer.csv --batch-size 50```
+* **train, predict and evalute model after recieving data**: ```python src/main.py ```
